@@ -1,0 +1,13 @@
+GraphType=“SocialNetwork”
+GraphName=“LabSocial”
+VertexType=“Person”
+Vertex=<“Emma”，“Person”，<“M”，“16”>>
+Vertex=<“Sophia”，“Person”，<“M”，“17”>>
+Vertex=<“Edith”，“Person”，<“F”，“15”>>
+Vertex=<“Kevin”，“Person”，<“F”，“18”>>
+EdgeType=“FriendTie”，“CommentTie”，“ForwardTie”
+Edge=<“ES”，“FriendTie”，“0.35”，“Emma”，“Sophia”，“YES”>
+Edge=<“ES1”，“CommentTie”，“0.35”，“Emma”，“Sophia”，“YES”>
+Edge=<“SE”，“FriendTie”，“0.1”，“Sophia”，“Emma”，“YES”>
+Edge=<“EK”，“FriendTie”，“0.1”，“Edith”，“Kevin”，“YES”>
+Edge=<“SE1”，“ForwardTie”，“0.1”，“Sophia”，“Edith”，“YES”>

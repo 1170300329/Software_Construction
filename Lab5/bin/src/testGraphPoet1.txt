@@ -1,0 +1,13 @@
+GraphType=“GraphPoet”
+GraphName=“MyGrap#$%hPoet”
+VertexType=“Word”
+Vertex=<“to”，“Word”>
+Vertex=<“seek”，“Word”>
+Vertex=<“explore”，“Word”>
+Vertex=<“ask”，“Word”>
+EdgeType=“WordNeighborhood”
+Edge=<“TR”，“WordNeighborhood”，“2”，“ask”，“seek”，“YES”>
+Edge=<“TS”，“WordNeighborhood”，“1”，“to”，“seek”，“YES”>
+Edge=<“TE”，“WordNeighborhood”，“1”，“to”，“explore”，“YES”>
+Edge=<“TT”，“WordNeighborhood”，“1”，“to”，“to”，“YES”>
+Edge=<“SS”，“WordNeighborhood”，“1”，“seek”，“seek”，“YES”>

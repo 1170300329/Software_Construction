@@ -1,0 +1,30 @@
+输入文件读取路径：
+src/test3.txt
+cmd --help
+vertex --delete ask
+vertex --delete to
+vertex --delete seek
+vertex --add to Word 
+vertex --add seek Word
+vertex --add out Word 
+vertex --add explore Word 
+vertex --add strange Word 
+vertex --add new Word 
+vertex --add life Word 
+vertex --add and Word 
+vertex --add words Word 
+vertex --add civilizations Word
+edge --add to2explore WordNeighborhood [weighted=Y] [2] [directed=Y] to explore
+edge --add to2seek WordNeighborhood [weighted=N] [2] [directed=N] to seek
+edge --add explore2strange WordNeighborhood [weighted=Y] [2] [directed=Y] explore strange
+edge --add seek2out WordNeighborhood [weighted=Y] [2] [directed=Y] seek out
+edge --add strage2new WordNeighborhood [weighted=Y] [2] [directed=Y] strange new
+edge --add new2life WordNeighborhood [weighted=Y] [2] [directed=Y] new life
+edge --add life2and WordNeighborhood [weighted=Y] [2] [directed=Y] life and
+edge --add new2civilizations WordNeighborhood [weighted=Y] [2] [directed=Y] new civilizations
+edge --add new2words WordNeighborhood [weighted=Y] [2] [directed=Y] new words
+edge --add words2to WordNeighborhood [weighted=Y] [2] [directed=Y] words to
+compute strange null
+graph --toString
+graph --show
+exit

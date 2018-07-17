@@ -1,0 +1,13 @@
+MyFavoriteMovies
+Movie [label=TheShawshankRedemption year=1994, position=USA, IMDb=9.3]
+Director [label=FrankDarabontage=59, sex=M]
+Actor [label=MorganFreeman age=81, sex=M]
+Actor [label=TimRobbins age=60, sex=M]
+Movie [label=TheGreenMile year=1999, position=USA, IMDb=8.57]
+Actor [label=TomHanks age=62, sex=M]
+SRFD: [Movie [label=TheShawshankRedemption year=1994, position=USA, IMDb=9.3]Director [label=FrankDarabontage=59, sex=M]]
+GMFD: [Movie [label=TheGreenMile year=1999, position=USA, IMDb=8.57]Director [label=FrankDarabontage=59, sex=M]]
+SRMF: [Movie [label=TheShawshankRedemption year=1994, position=USA, IMDb=9.3]Actor [label=TimRobbins age=60, sex=M]]: 1.0
+SRTR: [Movie [label=TheShawshankRedemption year=1994, position=USA, IMDb=9.3]Actor [label=MorganFreeman age=81, sex=M]]: 2.0
+GMTH: [Movie [label=TheGreenMile year=1999, position=USA, IMDb=8.57]Actor [label=TomHanks age=62, sex=M]]: 1.0
+ActorsInSR[MorganFreeman TomHanks ]
